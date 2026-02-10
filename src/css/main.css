@@ -170,3 +170,31 @@ gap: 12px;
 .world-item-img{
     height: 133px;
 }
+@media only screen and (min-width: 1440px) {
+  .world-wrapper{
+    margin-top: 32px;
+    flex-direction: column-reverse;
+    align-items: start;
+    width: 1062px;
+    margin-left: auto;
+    margin-right: auto; 
+    gap: 40px;   
+      }
+.world-text{
+    width: 100%;
+text-align: center;
+}
+.dude-img{
+    width: 184px;
+        height: 249px;
+}
+.world-list{
+    margin-top: -234px;
+    margin-left: 200px;
+    gap: 32px;
+}
+.world-item{
+    width: 160px;
+        height: 230px;
+}
+}
