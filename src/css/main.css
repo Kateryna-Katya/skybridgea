@@ -268,3 +268,13 @@ text-align: center;
 .specila-item-text{
     text-align: left;
 }
+@media only screen and (min-width: 1440px) {
+ .special-text {
+        margin-bottom: 40px;
+    }
+.specail-list{
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+}
+}
