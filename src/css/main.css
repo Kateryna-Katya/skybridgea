@@ -75,3 +75,30 @@
    align-items: start;
  }
 }
+/*Disclaimer  */
+.disclaimer-section{
+    background: linear-gradient(180deg, #000112 0%, #0a3d1d 100%);
+}
+.disclaimer-container{
+    padding: 48px 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.disclaimer-title{
+    font-family: "Arsenal SC", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #e7eee9;
+}
+.disclaimer-text{
+    font-size: 12px;
+        text-transform: uppercase;
+}
+@media only screen and (min-width: 1440px) {
+  .disclaimer-container{
+    padding: 56px 189px;
+  }
+}
