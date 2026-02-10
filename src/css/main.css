@@ -198,3 +198,13 @@ text-align: center;
         height: 230px;
 }
 }
+/* Game Experience */
+.game-text{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.game-text{
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+}
