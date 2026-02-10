@@ -1,32 +1,47 @@
-:root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body{
+  background: #000112;
+  font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #e7eee9;
 }
-
-body {
+h2{
+  font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #e7eee9;
+}
+.title-container{
   display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+  align-items: center;
+  gap: 16px;
 }
-
-main {
-  flex-grow: 1;
+h3{
+  font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #f3d36c;
 }
-main:has(.back-link) {
-  text-align: center;
+.btn{
+  border: 1px solid #907520;
+    border-radius: 8px;
+    width: 240px;
+    height: 56px;
+    box-shadow: 1px 2px 2px 0 rgba(194, 165, 74, 0.5), inset 0 0 16px 0 #7c610c;
+      background: #f3d36c;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 17px;
+    font-family: "Arsenal", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.3;
+      color: #000112;
+      transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+  box-shadow:none;
 }
