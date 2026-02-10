@@ -102,3 +102,30 @@
     padding: 56px 189px;
   }
 }
+/* The Story */
+.story-section{
+    background-image: url("/img/story/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom 48px center;
+    background-size: 100% 214px;
+    height: 562px;
+}
+.story-text{
+    margin: 24px auto 0;
+    width: 323px;    
+}
+@media only screen and (min-width: 1440px) {
+  .story-section{
+    background-image: url("/img/story/desk.png");
+        background-position: bottom 56px center;
+            background-size: 1280px 731px;
+    height: 1059px;
+  }
+  .story-text{
+    margin-top: 32px;
+    width: 100%;
+  }
+  .mob{
+    display: none;
+  }
+}
