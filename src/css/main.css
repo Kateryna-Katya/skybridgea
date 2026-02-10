@@ -343,3 +343,30 @@ text-align: center;
         align-items: center;
         gap: 16px;
 }
+  .why-item img {
+width: 64px;
+    height: 63px;
+  }
+@media only screen and (min-width: 1440px) {
+  .why-text{
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  .why-list{
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+  }
+  .why-item{
+    width: 180px;
+        height: 190px;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-item img{
+    width: 102px;
+        height: 100px;
+  }
+}
