@@ -227,3 +227,44 @@ text-align: center;
             margin-right: auto;
     }
 }
+/* Special Events System */
+.special-section{
+    background: linear-gradient(180deg, #000112 0%, #0a3d1d 100%);
+}
+.special-text{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.specail-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.special-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #f3d36c;
+        border-radius: 8px;
+        padding: 16px;
+        width: 300px;
+        height: 140px;
+        background: #215f38;
+}
+.special-wrapper{
+    width: 171px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.special-item-title{
+    text-align: left;
+    font-family: "Arsenal", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #f3d36c;
+}
+.specila-item-text{
+    text-align: left;
+}
