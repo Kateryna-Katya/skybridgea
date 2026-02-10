@@ -478,26 +478,26 @@ width: 64px;
     }
     .demo-wrapper {
         margin: 40px auto 0;
-        height: 682px;
+        height: 646px;
     }
 
     .demo-img {
-        width: 942px;
-        height: 682px;
+width: 891px;
+    height: 646px;
         margin-left: auto;
         margin-right: auto;
     }
 
     .iframe-wrapper {
         top: 4%;
-        left: 46%;
+        left: 48%;
         transform: translateX(-48%);
         width: 68%;
         height: 54%;
     }
 
     #gameIframe {
-        width: 108%;
+        width: 102%;
         height: 170%;
         border: none;
         display: none;
@@ -506,7 +506,9 @@ width: 64px;
     }
         .demo-btn {
             top: 50%;
-
-        }
+}
+#closeIframeBtn {
+    right: 0;
+}
 }
 
