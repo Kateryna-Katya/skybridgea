@@ -511,4 +511,28 @@ width: 891px;
     right: 0;
 }
 }
-
+/* Closing Note */
+.closing-section{
+    background-image: url("/img/closing/mob.png"), linear-gradient(180deg, #000112 0%, #0a3d1d 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom center, top center;
+    background-size: 100% 272px, cover;
+    height: 484px;
+}
+.closing-text{
+    width: 283px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.closing-section {
+        background-image: url("/img/closing/desk.png"), linear-gradient(180deg, #000112 0%, #0a3d1d 100%);
+        background-repeat: no-repeat, no-repeat;
+        background-position: bottom center, top center;
+        background-size: 100% 440px, cover;
+        height: 658px;
+    }
+    .closing-text{
+        width: 100%;
+    }
+}
