@@ -370,3 +370,143 @@ width: 64px;
         height: 100px;
   }
 }
+/* Demo */
+.demo-text {
+    margin-top: 24px;
+}
+
+.demo-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 24px auto 0;
+    height: 622px;
+}
+
+.game-img {
+    width: 323px;
+    height: 622px;
+}
+
+/* ===== КНОПКА ===== */
+
+.demo-btn {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    display: inline-block;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.demo-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ===== ФОН ===== */
+
+.game-img {
+    width: 100%;
+    display: block;
+}
+
+/* ===== IFRAME ===== */
+
+.iframe-wrapper {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    transform: translateX(-48%);
+    width: 68%;
+    height: 54%;
+    z-index: 20;
+
+    /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+    pointer-events: none;
+}
+
+#gameIframe {
+    width: 125%;
+    height: 174%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 30px;
+}
+
+/* АКТИВНИЙ СТАН */
+.iframe-wrapper.active {
+    pointer-events: auto;
+}
+
+#gameIframe.active {
+    display: block;
+}
+
+/* ===== КНОПКА ЗАКРИТТЯ ===== */
+
+#closeIframeBtn {
+    position: absolute;
+    top: 20px;
+    right: -50px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    display: none;
+
+    z-index: 9999;
+    /* 🔥 НАД iframe */
+    pointer-events: auto;
+}
+
+#closeIframeBtn.active {
+    display: block;
+}
+
+.close-img {
+    width: 24px;
+    height: 24px;
+
+}
+@media only screen and (min-width: 1440px) {
+.demo-text {
+        margin-top: 32px;
+    }
+    .demo-wrapper {
+        margin: 40px auto 0;
+        height: 682px;
+    }
+
+    .demo-img {
+        width: 942px;
+        height: 682px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .iframe-wrapper {
+        top: 4%;
+        left: 46%;
+        transform: translateX(-48%);
+        width: 68%;
+        height: 54%;
+    }
+
+    #gameIframe {
+        width: 108%;
+        height: 170%;
+        border: none;
+        display: none;
+        background: #000;
+        border-radius: 30px;
+    }
+        .demo-btn {
+            top: 50%;
+
+        }
+}
+
