@@ -208,3 +208,22 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+    .game-text{
+        width: 100%;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+    .desk{
+        display: block;
+    }
+    .game-img{
+        width: 1062px;
+            height: 593px;
+            margin-left: auto;
+            margin-right: auto;
+    }
+}
