@@ -2,55 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/skybridgea/favicon.svg" />
+    <link rel="icon" type="image/png" href="/skybridgea/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>Book of rest</title>
     <script type="module" crossorigin src="/skybridgea/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/skybridgea/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/skybridgea/assets/styles-d8E_dJ2Y.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container">
+        <h1 class="visually-hidden">Book of rest</h1>
+        <picture>
+            <source srcset="/skybridgea/assets/logo-desk-BOJz1Fs9.png 1x, /skybridgea/assets/logo-desk@2x-rZ-M00TD.png 2x" media="(min-width: 1440px)" />
+            <source srcset="/skybridgea/assets/logo-mob-CKKMnoHh.png 1x, /skybridgea/assets/logo-mob@2x-CDNW7yhc.png 2x" media="(max-width: 1439px)" />
+            <img class="hero-logo" src="/skybridgea/assets/logo-mob-CKKMnoHh.png" alt="Book of rest" loading="lazy" />
+        </picture>
+        <div class="home-container">
+            <div class="home-wrapper">
+            <h2 class="home-subtitle">Open the page. Feel the heat.</h2>
+            <p class="home-text">Some stories are meant to be read in silence. Others pull you into places where the sun burns bright and every moment
+            feels alive. Book of Rest drops you into this crazy tropical world - honestly, it's pretty wild. The characters respond
+            to everything going on, and there's this strange tension that just keeps building once you dive in.</p>
+        </div>
+        <a class="hero-btn pulse btn" href="#demo">
+            <p>Open the Book</p>
+        </a>
+    </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
