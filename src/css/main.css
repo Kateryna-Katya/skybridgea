@@ -129,3 +129,44 @@
     display: none;
   }
 }
+/* The World */
+.world-section{
+    background: linear-gradient(180deg, #000112 0%, #0a3d1d 100%);
+}
+.world-wrapper{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ 
+}
+.world-text{
+    width: 216px;
+    text-align: left;
+}
+.dude-img{
+    width: 110px;
+        height: 147px;
+}
+.world-list{
+margin-top: 24px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 12px;
+}
+.world-item{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    border: 1px solid #f3d36c;
+        border-radius: 8px;
+        padding: 12px;
+        width: 144px;
+        height: 205px;
+        background: #215f38;
+}
+.world-item-img{
+    height: 133px;
+}
