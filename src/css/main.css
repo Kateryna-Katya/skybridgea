@@ -382,7 +382,7 @@ width: 64px;
     height: 622px;
 }
 
-.game-img {
+.demo-img {
     width: 323px;
     height: 622px;
 }
@@ -407,7 +407,7 @@ width: 64px;
 
 /* ===== ФОН ===== */
 
-.game-img {
+.demo-img {
     width: 100%;
     display: block;
 }
