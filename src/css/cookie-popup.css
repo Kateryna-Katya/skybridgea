@@ -1,0 +1,90 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 48px 16px;
+    background: #0a3d1d;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.cookie-class {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+width: 282px;
+    height: 38px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+border-radius: 8px;
+    padding: 10px;
+    width: 124px;
+    height: 38px;
+box-shadow: 1px 2px 2px 0 rgba(231, 238, 233, 0.3);
+    background: #e7eee9;
+    box-sizing: border-box;
+    border: none;
+font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #000112;
+}
+
+.btn-decline {
+    border: none;
+border-bottom: 1px solid #e7eee9;
+    padding: 10px;
+    width: 126px;
+    height: 38px;
+font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #e7eee9;
+    opacity: 0.8;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 56px 57px;
+        width: 1439px;
+        height: auto;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .cookie-class {
+        width: 100%;
+
+    }
+
+    .cookie-buttons {
+        margin-top: 0;
+        width: 376px;
+        height: 40px;
+        gap: 80px;
+    }
+
+}
